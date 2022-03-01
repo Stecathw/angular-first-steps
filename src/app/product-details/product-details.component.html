@@ -1,0 +1,5 @@
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price | currency }}</h4> <!-- Pipe like in Django templates -->
+  <p>{{ product.description }}</p>
+</div>
